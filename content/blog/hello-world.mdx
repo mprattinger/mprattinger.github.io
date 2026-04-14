@@ -1,0 +1,51 @@
+---
+title: Hello, World!
+date: '2024-01-15'
+tags:
+  - meta
+  - next.js
+  - mdx
+excerpt: >
+  The first post on this blog — what to expect, how it's built,
+  and a quick tour of the tech stack.
+draft: false
+---
+
+Welcome to my blog! I'm Michael Prattinger, a software developer with 20+ years of
+experience across .NET, React, Node.js, SAP CRM, and IBM i.
+
+## What to expect
+
+This blog will cover topics I work with daily:
+
+- **.NET & C#** — patterns, performance, and real-world architectures
+- **React & Node.js** — modern frontend and backend development
+- **IBM i** — the platform few talk about but many enterprises run on
+- **Tooling & DX** — whatever makes a developer's life easier
+
+## How this site is built
+
+This site is built with **Next.js 14** using the App Router, with blog
+articles authored in **MDX** — Markdown with embedded React components.
+It's deployed as a static export to **GitHub Pages**.
+
+```typescript
+// This is what a post looks like in code
+interface Post {
+  slug: string;
+  frontmatter: {
+    title: string;
+    date: string;
+    tags?: string[];
+    excerpt?: string;
+  };
+  content: string;
+}
+```
+
+The full source is on [GitHub](https://github.com/mprattinger).
+
+## What's next
+
+I'll be publishing articles regularly. Subscribe via RSS (coming soon) or
+just check back.

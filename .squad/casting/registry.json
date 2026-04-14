@@ -1,0 +1,13 @@
+{
+  "agents": [
+    { "persistent_name": "Michael Knight", "role": "Team Lead", "universe": "Knight Rider", "folder": "michael-knight", "created_at": "2026-04-14", "legacy_named": false, "status": "active" },
+    { "persistent_name": "KITT", "role": "Tech Lead", "universe": "Knight Rider", "folder": "kitt", "created_at": "2026-04-14", "legacy_named": false, "status": "active" },
+    { "persistent_name": "Devon Miles", "role": "Content & Docs", "universe": "Knight Rider", "folder": "devon-miles", "created_at": "2026-04-14", "legacy_named": false, "status": "active" },
+    { "persistent_name": "Bonnie Barstow", "role": "Frontend/UI/UX", "universe": "Knight Rider", "folder": "bonnie-barstow", "created_at": "2026-04-14", "legacy_named": false, "status": "active" },
+    { "persistent_name": "RC3", "role": "Backend & DevOps", "universe": "Knight Rider", "folder": "rc3", "created_at": "2026-04-14", "legacy_named": false, "status": "active" },
+    { "persistent_name": "Garthe Knight", "role": "Testing & QA", "universe": "Knight Rider", "folder": "garthe-knight", "created_at": "2026-04-14", "legacy_named": false, "status": "active" },
+    { "persistent_name": "April Curtis", "role": "Infrastructure", "universe": "Knight Rider", "folder": "april-curtis", "created_at": "2026-04-14", "legacy_named": false, "status": "active" },
+    { "persistent_name": "Scribe", "role": "Session Logger", "universe": "exempt", "folder": "scribe", "created_at": "2026-04-14", "legacy_named": false, "status": "active" },
+    { "persistent_name": "Ralph", "role": "Work Monitor", "universe": "exempt", "folder": "ralph", "created_at": "2026-04-14", "legacy_named": false, "status": "active" }
+  ]
+}

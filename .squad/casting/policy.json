@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "universe": "Knight Rider",
+  "user_selected": true,
+  "capacity": 10,
+  "overflow_strategy": "diegetic_expansion"
+}
