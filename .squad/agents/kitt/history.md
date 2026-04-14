@@ -10,6 +10,13 @@
 
 ## Learnings
 
+### 2026-04-14 — Homepage Design System Live
+
+- Bonnie Barstow implemented full homepage; design system now active in `decisions.md`
+- `tailwind.config.ts` extended with `fontFamily.mono`/`fontFamily.sans` CSS variables and `#00d4ff` accent
+- Terminal hero uses pure CSS animations (no runtime JS) — relevant for performance budget
+- Blog list and article pages styled with `prose-invert`
+
 ### 2024-01-15 — Next.js Scaffold
 
 **Architectural decisions:**
