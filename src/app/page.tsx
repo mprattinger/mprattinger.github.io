@@ -68,18 +68,37 @@ const blogPosts = [
 ];
 
 const skills = [
-  { label: '.NET / C#', highlight: true },
-  { label: 'React', highlight: false },
-  { label: 'TypeScript', highlight: false },
+  // .NET & Backend
+  { label: 'C#', highlight: true },
+  { label: 'ASP.NET Core', highlight: true },
+  { label: 'ASP.NET', highlight: false },
+  { label: '.NET Core', highlight: true },
+  { label: '.NET Framework', highlight: false },
+  { label: '.NET MAUI', highlight: false },
+  { label: 'Entity Framework Core', highlight: true },
+  { label: 'Entity Framework', highlight: false },
+  { label: 'Domain-Driven Design', highlight: true },
+  // Frontend
+  { label: 'React.js', highlight: true },
+  { label: 'HTML', highlight: false },
+  { label: 'CSS', highlight: false },
   { label: 'Node.js', highlight: false },
-  { label: 'SQL Server', highlight: false },
+  { label: 'AngularJS', highlight: false },
+  // IBM i & SAP
+  { label: 'RPG Free', highlight: true },
   { label: 'SAP CRM', highlight: true },
-  { label: 'IBM i / RPG', highlight: true },
-  { label: 'Azure', highlight: false },
+  { label: 'IBM i', highlight: false },
+  // DevOps & Tools
   { label: 'Docker', highlight: false },
-  { label: 'Next.js', highlight: false },
-  { label: 'REST APIs', highlight: false },
   { label: 'Git', highlight: false },
+  { label: 'GitHub', highlight: false },
+  { label: 'Jenkins', highlight: false },
+  { label: 'Linux', highlight: false },
+  { label: 'Jira', highlight: false },
+  // Desktop / Mobile
+  { label: 'WPF', highlight: false },
+  { label: 'WinForms', highlight: false },
+  { label: 'Xamarin', highlight: false },
 ];
 
 const GitHubIcon = () => (

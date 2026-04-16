@@ -31,3 +31,11 @@
   - `tailwind.config.ts` — font family CSS variables, accent color `#00d4ff`
 - **Build**: `npm run build` passes cleanly, all 6 static pages generated
 
+### Bio & LinkedIn update (2026-07)
+- **Real LinkedIn URL**: `https://www.linkedin.com/in/michael-prattinger-449b5915/` (not the short `/in/mprattinger` placeholder)
+- **Current role**: Software Developer at BECOM Electronics GmbH, April 2018–Present (Hochstraß, Burgenland, Austria)
+- **Previous role**: Senior SAP CRM Consultant at Wienerberger AG, July 2007–March 2018 (~11 years)
+- **Earlier**: Anlagenbau / Electronics at Werfring, July 2002–September 2003; IBM i / RPG background
+- **Terminal profile.json**: `"title"` updated to `"Software Developer @ BECOM Electronics"`, added `"location": "Burgenland, Austria"` field
+- **About bio tone**: First-person, direct, no buzzwords — grounded in real career facts
+
