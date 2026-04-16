@@ -31,6 +31,13 @@
   - `tailwind.config.ts` — font family CSS variables, accent color `#00d4ff`
 - **Build**: `npm run build` passes cleanly, all 6 static pages generated
 
+### Skills section — real LinkedIn data (2026-07)
+- **Skills array populated**: replaced 12 placeholder skills with 27 real skills sourced directly from Michael's LinkedIn profile
+- **Grouping (comment-based)**: `.NET & Backend` (C#, ASP.NET Core, .NET Core, .NET MAUI, EF Core, DDD), `Frontend` (React.js, HTML, CSS, Node.js, AngularJS), `IBM i & SAP` (RPG Free, SAP CRM, IBM i), `DevOps & Tools` (Docker, Git, GitHub, Jenkins, Linux, Jira), `Desktop / Mobile` (WPF, WinForms, Xamarin)
+- **Highlight logic**: `highlight: true` used for core/signature skills — C#, ASP.NET Core, .NET Core, EF Core, DDD, React.js, RPG Free, SAP CRM
+- **No JSX changes**: only the `const skills` array was modified; rendering logic untouched
+- **Build**: passed cleanly after update
+
 ### Bio & LinkedIn update (2026-07)
 - **Real LinkedIn URL**: `https://www.linkedin.com/in/michael-prattinger-449b5915/` (not the short `/in/mprattinger` placeholder)
 - **Current role**: Software Developer at BECOM Electronics GmbH, April 2018–Present (Hochstraß, Burgenland, Austria)
