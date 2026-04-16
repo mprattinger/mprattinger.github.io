@@ -158,7 +158,7 @@ export default function HomePage() {
               <span className="w-3 h-3 rounded-full bg-yellow-500/80" aria-hidden="true" />
               <span className="w-3 h-3 rounded-full bg-green-500/80" aria-hidden="true" />
               <span className="ml-3 font-mono text-xs text-gray-500">
-                terminal — michael@mprattinger.dev
+                terminal — michael@mprattinger.com
               </span>
             </div>
 
@@ -425,7 +425,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="mailto:hello@mprattinger.dev"
+              href="mailto:hello@mprattinger.com"
               className="font-mono text-sm px-6 py-3 bg-accent text-[#0a0a0a] font-semibold rounded-lg hover:bg-white transition-colors"
             >
               Send an Email

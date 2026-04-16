@@ -17,12 +17,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://mprattinger.com'),
   title: {
-    default: 'Michael Prattinger',
+    default: 'Michael Prattinger — Software Developer',
     template: '%s | Michael Prattinger',
   },
   description:
-    'Personal homepage and blog of Michael Prattinger — software developer specialising in .NET, React, Node.js, SAP CRM, and IBM i.',
+    '20+ years building .NET, React, Node.js, SAP CRM and IBM i solutions. Based in Burgenland, Austria.',
 };
 
 export default function RootLayout({

@@ -32,7 +32,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:hello@mprattinger.dev"
+            href="mailto:hello@mprattinger.com"
             className="text-gray-500 hover:text-accent transition-colors"
             aria-label="Email"
           >
