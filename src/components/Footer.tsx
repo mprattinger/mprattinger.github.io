@@ -20,7 +20,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/in/mprattinger"
+            href="https://www.linkedin.com/in/michael-prattinger-449b5915/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-accent transition-colors"

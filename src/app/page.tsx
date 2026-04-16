@@ -178,7 +178,14 @@ export default function HomePage() {
                 <span className="text-gray-600">&nbsp;&nbsp;</span>
                 <span className="text-accent">&quot;title&quot;</span>
                 <span className="text-gray-500">:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                <span className="text-amber-300">&quot;Software Developer&quot;</span>
+                <span className="text-amber-300">&quot;Software Developer @ BECOM Electronics&quot;</span>
+                <span className="text-gray-500">,</span>
+              </TermLine>
+              <TermLine delay="2.0s">
+                <span className="text-gray-600">&nbsp;&nbsp;</span>
+                <span className="text-accent">&quot;location&quot;</span>
+                <span className="text-gray-500">:&nbsp;&nbsp;&nbsp;</span>
+                <span className="text-amber-300">&quot;Burgenland, Austria&quot;</span>
                 <span className="text-gray-500">,</span>
               </TermLine>
               <TermLine delay="2.1s">
@@ -249,19 +256,24 @@ export default function HomePage() {
           <h2 className="font-mono text-3xl font-bold text-white mb-8">About Me</h2>
           <div className="space-y-4 text-gray-400 text-lg leading-relaxed">
             <p>
-              I&rsquo;m a software developer with over 20 years of hands-on experience building
-              everything from enterprise .NET applications and SAP CRM integrations to React
-              front-ends and IBM&nbsp;i / RPG modernisation projects.
+              I&rsquo;m a software developer based in Burgenland, Austria, with 20+ years of
+              real-world experience. Since April 2018 I&rsquo;ve been working at{' '}
+              <span className="text-gray-300">BECOM Electronics GmbH</span>, building and
+              maintaining software for embedded and industrial systems. Before that I spent nearly
+              11 years as a Senior SAP CRM Consultant at{' '}
+              <span className="text-gray-300">Wienerberger AG</span> — deep enterprise CRM,
+              integration work, and a lot of lessons learned about how large organisations actually
+              run their software.
             </p>
             <p>
-              I care deeply about clean code, pragmatic architecture, and shipping software that
-              actually solves problems. I&rsquo;m equally comfortable in legacy codebases and
-              greenfield projects — the best solutions come from understanding the business context,
-              not just the technology.
+              My background also includes IBM&nbsp;i / RPG — I started my career in electronics and
+              automation, which gives me a healthy respect for systems that have to run without
+              drama. These days my focus is on .NET, React, TypeScript, and Node.js, but I&rsquo;m
+              not afraid of a legacy codebase. Most of the interesting problems live there anyway.
             </p>
             <p>
-              Outside of work I contribute to open-source, write about development on this blog,
-              and build small tools that scratch my own itches.
+              Outside of the day job I build side projects and tools — mostly things I want to exist
+              but don&rsquo;t yet. Some make it onto this blog.
             </p>
           </div>
         </div>
@@ -409,7 +421,7 @@ export default function HomePage() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/mprattinger"
+              href="https://www.linkedin.com/in/michael-prattinger-449b5915/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono text-sm px-6 py-3 border border-[#2a2a2a] text-gray-300 rounded-lg hover:border-accent hover:text-accent transition-colors flex items-center gap-2"
